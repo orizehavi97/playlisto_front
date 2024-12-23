@@ -7,7 +7,7 @@ import { useEffect, useRef, useState } from "react";
 import { Button } from "../../../../components/ui/button";
 
 interface AudioPlayerProps {
-  songId: string;
+  songId: string | undefined;
   duration: number;
   onPlaybackComplete: () => void;
   isHost: boolean;
