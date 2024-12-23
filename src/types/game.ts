@@ -54,10 +54,11 @@ export interface GameState {
 }
 
 export interface Song {
-  id: string;
-  name: string;
+  id?: string;
+  name?: string;
   duration: number;
   startTime: number;
+  previewUrl?: string;
 }
 
 export interface CorrectSong {
