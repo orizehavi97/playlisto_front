@@ -114,6 +114,7 @@ const useSpotifyPlayer = (showControls: boolean, spotifyToken: string) => {
         player.disconnect();
       }
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [showControls, spotifyToken]);
 
   if (error) console.error(error);
