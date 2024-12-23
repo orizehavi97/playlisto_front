@@ -226,6 +226,7 @@ const useGame = () => {
   }, [
     handleGameOver,
     handleGameStateUpdate,
+    handleGuessResult,
     initializeGameState,
     setCurrentGuessResult,
     setGameState,
